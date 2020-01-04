@@ -1,0 +1,222 @@
+/*Valeur par défaut*/
+
+p
+{
+margin-top:0;
+margin-bottom:0;
+padding-top:0.5%;
+padding-bottom:0.5%;
+diplay:block
+}
+
+a{
+color:white;
+text-decoration:none;
+}
+
+ul {
+list-style-type: none;
+padding-left:0;
+margin-top:0;
+margin-bottom:0;
+}
+
+h2 {
+font-size: 100%;
+text-decoration: underline;
+
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+html{
+box-sizing:content-box;
+height:100vh;
+width:100vw;
+margin-top:-1%;
+margin-left:-0.5%;
+
+}
+
+
+.bordure-centrale
+{
+margin-left:15%;
+
+padding: 0 0 5% 0;
+}
+
+/*/////////////////////////////////// En tête///////////////////////*/
+header{
+	background-image:url("./images/bois2.jpg");
+	overflow:hidden;
+	position:absolute;
+	margin-left:15%;
+	padding-left:10%;
+	width:100%;
+	max-height:20%;
+	z-index:1;
+	
+}
+
+/*/////////////////////////////////// LOGO ////////////////*/
+.Buddha{
+	border:2px solid black;
+	
+	border-radius:100%;
+	
+	
+	margin-left:5%;
+	margin-top:3%;
+}
+/*/////////////////////////////////// PANIER TITRE ///////*/
+.panier_titre{
+	display:block;
+	float:right;
+	width:80%;
+	height:200%;
+	color:white;
+	font-family: 'Lakki Reddy', cursive, sans serif;
+}
+/*/////////////////////////////////// TITRE + SLOGAN /////*/
+.titre_slogan{
+	width:100%;
+	border:2px solid black;
+	height:80%;
+	align-items:center;
+	font-family: 'Pacifico', cursive, sans-serif;
+	margin-left:1%;
+}
+.titre_site{
+	font-size:400%;
+	margin-bottom:-2%;
+	padding-top:2%;
+	
+
+}
+
+.slogan{
+	font-size:200%;
+	margin-bottom:2%;
+	font-family: 'Pacifico', cursive, sans-serif;
+
+}
+/*/////////////////////////// LIGNE DE RECHERCHE /////////*/
+.rechercher{
+	display:flex;
+	align-items:center;
+	margin-bottom:1%;
+}
+
+.barre_recherche{
+	height:10%;
+	width:25%;
+	margin-right:1%;
+}
+
+#bouton_rechercher{
+	margin-right:5%;
+}
+
+#panier{
+	height:25px;
+	margin-right:1%;
+	text-decoration:none;
+}
+
+#panier_texte
+{
+	text-decoration:none;
+	color:black;
+
+}
+
+/*/////////////////////////////////////// BODY /////////////////////////////*/
+
+body{
+		background-color:#eaf0de;
+}
+.contenu{
+display:flex;
+
+}
+.contenu_page{
+	
+
+	padding-left:1%;
+	text-align:justify;
+	margin-left:20%;
+	margin-bottom:3%;
+	width: 65%;
+	
+	padding:1%;
+}
+
+
+
+/*/////////////////////////////////////// Acceuil /////////////////////////////*/
+
+
+
+
+/*/////////////////////////////////////// FOOTER /////////////////////////////*/
+
+footer{
+		display: flex;
+		
+		
+		justify-content:space-around;
+		align-items:center;
+
+		
+		/* margin-left:15%; */
+		height:25vh;
+		z-index:2;
+		width:100%;
+		overflow:hidden;
+		
+		
+		background-image:url("./images/bois2.jpg");
+		color:white;
+		position: absolute;
+		
+		
+}
+.footer-item{
+	
+}
+
+
+/*////////////////////////////////////// CONTACT ///////////////////////////*/
+
+.Contact{
+	
+	width:30%;
+
+}
+
+#logo
+{
+	height:5%;
+	width:1%;
+}
+
+/*////////////////////////////////////// A PROPOS ///////////////////////////*/
+.propos{
+	width:20%;
+}
+
+/*////////////////////////////////////// FAQ ///////////////////////////*/
+
+
+.FAQ{
+	
+	width:20%;
+}
+
+
+
+/* Le CSS qui concerne le header */
+

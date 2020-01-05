@@ -57,7 +57,7 @@ header{
 	padding-left:10%;
 	width:100%;
 	max-height:20%;
-	z-index:1;
+	z-index:0;
 	
 }
 
@@ -171,9 +171,9 @@ footer{
 		align-items:center;
 
 		
-		/* margin-left:15%; */
+		margin-left:15%;
 		height:25vh;
-		z-index:2;
+		z-index:0;
 		width:100%;
 		overflow:hidden;
 		

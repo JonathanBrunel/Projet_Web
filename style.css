@@ -1,0 +1,546 @@
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+	/*Le CSS qui est commun à tous le site*/
+	
+*{
+border: 0;
+padding: 0;
+margin: 0;
+}
+	
+body
+
+{
+	font-family: 'Lakki Reddy', cursive, sans serif;
+	margin:0;
+	background-color:#eaf0de;
+}
+
+	
+a
+{
+color:white;
+text-decoration:none;
+}
+
+
+
+h2 {
+font-size: 100%;
+text-decoration: underline;
+
+}
+
+
+p
+{
+	margin-top:0;
+	margin-bottom:0;
+	padding-top:0.5%;
+	padding-bottom:0.5%;
+
+	
+}
+
+
+ul {
+list-style-type: none;
+padding-left:0;
+margin-top:0;
+margin-bottom:0;
+}
+
+.decalage
+
+{
+
+	margin-top: 10%;
+}
+
+/*****************************************************************************************/
+
+.contenu{
+display:flex;
+
+}
+.contenu_page{
+	
+
+	padding-left:1%;
+	text-align:justify;
+	margin-left:20%;
+	margin-bottom:3%;
+	width: 65%;
+	
+	padding:1%;
+}
+
+	.bordure-centrale
+
+{
+	margin-left:15%;
+
+	
+	
+	padding:3% 1% 3% 1%;
+	
+	
+	
+}
+
+.decalage
+{
+	
+}
+
+.grand-decalage
+{
+	padding-top:22%;
+}
+
+.texte-petit
+{
+	font-size:xx-small;
+}
+
+.center
+{
+	margin-left: 42.5%;
+    
+
+}
+
+.texte-noir
+{
+	color:black;
+}
+
+
+
+.image
+{
+
+	width:100%;
+	height:100%;
+
+}
+/* Le CSS qui concerne uniquement la barre de gauche*/
+
+
+
+	
+
+	
+	
+	.box-bar
+	{	
+		display: flex;	
+		font-size: 18px;
+		width:15%;
+		
+
+		
+		
+		position:fixed;
+		top:0vh;
+		overflow:hidden;
+		background: rgb(209,155,0);
+		background: linear-gradient(90deg, rgba(209,155,0,0.7699812346813726) 10%, rgba(0,255,163,1) 100%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
+		border:2px solid black;
+		background-color:brown;
+			
+		flex-direction: column;
+		
+		
+		
+	}
+			
+		.bouton-bar
+		{			
+			padding:1em;
+			
+			border: 1px solid black;
+			
+			background:brown;
+
+			
+			
+		}
+		
+			.bouton-couleur
+			{
+				background-color:red;
+			}
+
+			.bouton-acceuil
+			{
+				background-color:blue;
+				height:13.5vh;
+				font-size: 35px;
+				text-align: center;
+				
+				
+			}
+		
+
+		
+		
+	
+		.bouton-hover:hover{color:#000!important;background-color:#00ffff!important}
+
+
+
+
+
+	/*Le CSS qui concerne la description d'un objet choisi*/
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+	
+	/* CSS qui concerne l'acceuil */
+	
+	.boite-liste-accueil
+	{
+	display: flex;	
+	justify-content:space-around;
+	font-size: 18px;
+	
+	}
+	
+	.boite-description-accueil
+	{
+		border:1px solid black;
+		width:70%;
+		padding:3%;
+		background-color:white;
+		border-radius:30px;
+	}
+	
+	.texte-accueil-grand
+	{
+		font-size:x-large;
+		font-weight: bold;
+	}
+
+	
+	
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+	/* Le CSS qui concerne la partie "notre équipe" */
+	
+	.boite-liste-equipe
+	{
+	display: flex;
+	
+	justify-content:space-around;
+	font-size: 18px;
+	
+	
+	
+	
+	
+	}
+
+	
+	.boite-equipe
+	{
+		
+		
+		
+		
+		
+		width:20%;
+		
+		
+		
+		margin-top:2%;
+		
+		
+	}
+	
+
+	
+	.image-border-equipe
+	{
+		border-radius: 50%;
+		
+
+		
+	}
+
+	.boite-liste-description-equipe
+	{
+		display: flex;
+		justify-content:space-around;
+		font-size: 18px;
+		
+		
+		
+	}
+
+	
+	.boite-description-equipe
+	{
+		
+		/* border-radius:10px; */
+		
+		overflow:hidden;
+		border:1px solid black;
+		
+		
+		width:12%;
+		
+		padding:1%;
+		
+		margin-top:1%;
+		background:white;
+		
+		text-align: center;
+		
+	}
+	
+	.texte-equipe-grand
+	{
+		font-size:x-large;
+		font-weight: bold;
+	}
+	.texte-equipe-metier
+	{
+		font-size:large;
+		font-weight: bold;
+	}
+	.texte-equipe-moyen
+	{
+		font-size:medium;
+	}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/		
+		
+	/*Le CSS qui concerne la recherche d'objets*/
+	
+	.boite-liste-objet
+	{
+	display: flex;	
+	justify-content:space-around;
+	font-size: 18px;	
+	}
+
+	
+	.boite-objet
+	{
+		
+		border-radius:10px;
+		
+		
+		
+		width:20%;
+		
+		
+		
+		margin-top:2%;
+		
+		
+	}
+	
+
+	
+	.image-border
+	{
+		border-radius:10px;
+	}
+
+	.boite-liste-description-objet
+	{
+		display: flex;
+		justify-content:space-around;
+		font-size: 18px;
+		
+		
+	}
+		
+	.boite-description-objet
+	{
+		
+		border-radius:10px;				
+		border:1px double black;				
+		width:20%;		
+		padding:1% 0% 1% 0%;				
+		margin-bottom:3%;		
+		text-align: center;
+		background:white;
+		overflow:hidden;
+		
+	}
+	
+	.prix-objet
+	{
+		color:red;
+		
+	}
+	
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/		
+		
+	/*Le CSS qui concerne les produits*/
+	.boite-liste-produit
+	{
+	display: flex;	
+	
+	font-size: 18px;
+	
+	}
+	
+	.image-produit
+	{
+		border-radius:10px;
+		/* border:1px solid black; */
+		
+		
+	}
+	
+	.image-produit
+	{
+		margin-left:5%;
+		margin-top:3%;
+	}
+	
+	.boite-liste-description-produit
+	{
+		display: flex;
+		flex-direction:row;
+		font-size: 18px;
+		
+		
+	}
+		
+	.boite-description-produit
+	{
+		
+		border-radius:10px;				
+		border:1px double black;				
+		width:55%;		
+		padding:2%;
+		margin-top:6%;		
+		margin-bottom:3%;		
+		text-align: justify;
+		background:white;
+		overflow:hidden;
+		margin-left:15%;
+		
+	}
+	
+		.prix-objet
+	{
+		color:red;
+		text-align:center;
+		
+	}
+	
+	
+	
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+	/* Ce CSS concerne la promotion dans le Footer */
+	
+	
+
+
+
+
+
+
+	.boite-liste-promotion
+	{
+		display:flex;
+		flex-direction:row;
+		justify-content:space-around;
+		overflow:hidden;
+	}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+*{
+	border:0;
+	margin:0;
+	padding: :0;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+
+/*//////////////////////////////HEADER//////////////////*/
+.panier_titre{
+width:100vw;
+height:25vh;
+background-image: url("./images/bois2.jpg");
+display:flex;
+background-color: grey;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+color:white;
+}
+
+.titre_site{
+	font-size:3.5vw;
+}
+.slogan{
+	font-size:2.5vw;
+}
+
+.barre_recherche{
+	width:20vw;
+	height:2vh;
+	margin-right: 1vw;
+}
+
+.bouton_rechercher{
+	height:2vh;
+	margin-right: 1vw;
+}
+
+.rechercher{
+	display:flex;
+}
+
+.panier{
+	height:2.5vh;
+	width:1.5vw;
+	padding-right: 0.2vw;
+}
+
+/*///////////////////////////////////FOOTER/////////////////////*/
+
+footer{
+	height:20vh;
+	width:100vw;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image: url("./images/bois2.jpg");
+	color:white;
+
+}
+
+
+
+
+
+
+	

@@ -56,7 +56,7 @@ header{
 	margin-left:15%;
 	padding-left:10%;
 	width:100%;
-	max-height:20%;
+	max-height:30%;
 	z-index:0;
 	
 }
@@ -69,7 +69,7 @@ header{
 	
 	
 	margin-left:5%;
-	margin-top:3%;
+	margin-top:30%;
 }
 /*/////////////////////////////////// PANIER TITRE ///////*/
 .panier_titre{

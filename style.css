@@ -479,11 +479,12 @@ a{
 	text-decoration:none;
 	color:white;
 }
+
 /*//////////////////////////////HEADER//////////////////*/
 
 .panier_titre{
 width:100vw;
-min-height:25vh;
+min-height:200px;
 max-height:25vh;
 
 background-image: url("./images/bois2.jpg");
@@ -521,9 +522,9 @@ color:white;
 }
 
 .panier{
-	min-height:2vh;
-	min-width:2vw;
-	width:2vw;
+	min-height:2%;
+	min-width:2%;
+	width:2%;
 	padding-right: 0.2vw;
 }
 
@@ -539,8 +540,6 @@ footer{
 	color:white;
 
 }
-
-
 
 
 

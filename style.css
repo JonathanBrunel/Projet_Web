@@ -519,6 +519,8 @@ color:white;
 
 .rechercher{
 	display:flex;
+	justify-content:center;
+	align-items:center;
 }
 
 .panier{

@@ -417,9 +417,8 @@ display:flex;
 
 .bouton_rechercher{
 	height:2vh;
-
+	width:5vw;
 	margin-right: 1vw;
-	border-radius:20%;
 }
 
 .rechercher{

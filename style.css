@@ -21,7 +21,7 @@ body
 }
 
 main{
-	margin-top:1%;	
+	margin-top: 1%;
 }
 a
 {
@@ -396,11 +396,13 @@ display:flex;
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 /*//////////////////////////////HEADER//////////////////*/
+header{
 
+}
 .panier_titre{
 	width:100vw;
 	min-height:200px;
-	max-height:25vh;
+
 
 	background-image: url("./images/bois2.jpg");
 	display:flex;
@@ -448,8 +450,9 @@ display:flex;
 /*///////////////////////////////////FOOTER/////////////////////*/
 
 footer{
-	height:25vh;
+	height:20vh;
 	width:100vw;
+	margin-top: 100%;
 
 	display:flex;
 	justify-content: space-around;

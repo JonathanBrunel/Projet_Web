@@ -20,10 +20,6 @@ body
 	background-color:#C49675;
 }
 
-
-main{
-	height:65vh;
-}
 a
 {
 	color:white;
@@ -449,7 +445,7 @@ display:flex;
 /*///////////////////////////////////FOOTER/////////////////////*/
 
 footer{
-	height:20vh;
+	height:25vh;
 	width:100vw;
 
 	display:flex;

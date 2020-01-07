@@ -18,7 +18,6 @@ body
 	background-color:#C49675;
 }
 
-
 a
 {
 	color:white;
@@ -26,12 +25,10 @@ a
 }
 
 
-
 h2 {
 	font-size: 100%;
 	text-decoration: underline;
 }
-
 
 p
 {
@@ -82,7 +79,6 @@ ul {
 }
 
 
-
 .texte-petit
 {
 	font-size:xx-small;
@@ -100,8 +96,6 @@ ul {
 	color:black;
 }
 
-
-
 .image
 {
 
@@ -109,12 +103,8 @@ ul {
 	height:100%;
 
 }
+
 /* Le CSS qui concerne uniquement la barre de gauche*/
-
-
-
-
-
 
 
 .box-bar
@@ -151,14 +141,7 @@ ul {
 	text-align: center;
 }
 
-
-
-
-
 .bouton-hover:hover{color:#000!important;background-color:red!important}
-
-
-
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 	/* CSS qui concerne l'acceuil */
@@ -259,25 +242,18 @@ ul {
 	/*Le CSS qui concerne la recherche d'objets*/
 
 .boite-liste-objet
-	{
+{
 	display: flex;
 	justify-content:space-around;
 	font-size: 18px;
 }
 
-
 .boite-objet
 {
-
 	border-radius:10px;
 	width:20%;
 	margin-top:2%;
-
-
 }
-
-
-
 .image-border
 {
 	border-radius:10px;
@@ -285,14 +261,12 @@ ul {
 	width:100%;
 	height:100%;
 }
-
 .boite-liste-description-objet
 {
 	display: flex;
 	justify-content:space-around;
 	font-size: 18px;
 }
-
 .boite-description-objet
 {
 
@@ -306,14 +280,11 @@ ul {
 	overflow:hidden;
 
 }
-
 .prix-objet
 {
 	color:red;
 }
-
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
 .contenu{
 display:flex;
 }
@@ -337,9 +308,7 @@ display:flex;
 }
 
 #body_panier a{
-
 	margin-top: 40vh;
-
 }
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
@@ -349,25 +318,21 @@ display:flex;
 	display: flex;
 	font-size: 18px;
 }
-
 .image-produit
 {
 	border-radius:10px;
 }
-
 .image-produit
 {
 	margin-left:5%;
 	margin-top:3%;
 }
-
 .boite-liste-description-produit
 {
 	display: flex;
 	flex-direction:row;
 	font-size: 18px;
 }
-
 .boite-description-produit
 {
 	border-radius:10px;
@@ -380,15 +345,12 @@ display:flex;
 	background:white;
 	overflow:hidden;
 	margin-left:15%;
-
 }
-
 	.prix-objet
 {
 	color:red;
 	text-align:center;
 }
-
 	.image-desc
 {
 	margin-left:7vw;
@@ -396,7 +358,6 @@ display:flex;
 	width:450px;
 	height:450px;
 }
-
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 	/* Ce CSS concerne la promotion dans le Footer */
@@ -409,10 +370,6 @@ display:flex;
 	justify-content:space-around;
 	overflow:hidden;
 }
-
-
-
-
 
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

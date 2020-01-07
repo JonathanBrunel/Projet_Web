@@ -439,7 +439,7 @@ display:flex;
 footer{
 	min-height:20vh;
 	width:100vw;
-	margin-top:80vh;
+	margin-top:80%;
 	display:flex;
 	justify-content: space-around;
 	align-items: center;

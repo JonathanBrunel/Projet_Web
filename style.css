@@ -317,7 +317,7 @@ display:flex;
 }
 
 #continuer{
-	max -width:30vw;
+	max -width:28vw;
 }
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
@@ -453,12 +453,12 @@ footer{
 	align-items: center;
 	background-image: url("./images/bois2.jpg");
 	color:white;
+	z-index:1;
 }
 .contact{
-	max-height: 40vw;
-
+	max-height: 38vw;
 }
 
 .propos{
-	max-height: 40vw;
+	max-height: 38vw;
 }

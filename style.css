@@ -447,3 +447,11 @@ footer{
 	background-image: url("./images/bois2.jpg");
 	color:white;
 }
+.contact{
+	max-height: 40vw;
+
+}
+
+.propos{
+	max-height: 40vw;
+}

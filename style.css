@@ -437,7 +437,7 @@ display:flex;
 /*///////////////////////////////////FOOTER/////////////////////*/
 
 footer{
-	min-height:20vh;
+	height:20vh;
 	width:100vw;
 	margin-top:80%;
 	display:flex;

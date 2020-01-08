@@ -56,8 +56,14 @@
 		<section class="boite-liste-produit">			
 			<article class="boite-liste-description-produit">
 				<div class="boite-description-produit">
-					 <h2>Header:</h2> <p>Le header a été construit grace à une flex-box et la propriété Flex-direction column, puis une classe englobant: la zone de texte, le bouton rechercher, l'image du panier et le texte panier. Cette classe a été mis en flex box egalement sans flex direction afin qu'elle soit en flex direction row et aligner horizontalement.</p>
-						<h2>Footer:</h2> <p>Le footer a été mis en Flexbox, les deux parties ont été mis dans deux class differentes et
+					<h2>Header:</h2> <p>Les pages ont été conçu comme ce qui suit : la plupart contiennent une "bordure centrale" qui englobe le contenu présent à l'écran se trouvant entre le Header et le Footer d'une page. J'ai utilisé flexbox afin de m'aider à organiser plus facilement ce contenu.
+							Les pages de recherches, à savoir "Accessoire", "Musique du Monde", etc ont été organisé de telle sorte à ce qu'il y ait trois lignes de photos accompagnées de leurs 3 lignes de description. Ainsi, une ligne correspond à un ageancement flex-box en ligne de trois items, c'est à dire 3 images ou 3 descriptions.
+							De manière générale, les différents objets ont été organisés en "boîtes" dont le parent, dont la classe est "liste" contient la ligne "display:flex;". De plus, les positions des boîtes ont été définies de manière relative de telle sorte qu'une modification de la taille de la fenetre ne change pas leur alignement par rapport au centre.
+							Les images ont été définies de telles sortes à ce que leur affichage se fasse en pixel afin qu'il n'y ait pas de perte de qualité à mesure que la taille de la fenêtre change. Enfin, le contenu des différentes boites à été soumis à la condition "owerflow:hidden" afin qu'il ne dépasse jamais de leur contenant.
+
+
+							La barre de recherche de gauche a été configuré de telle sorte à ce qu'elle reste dans le même position à l'écran grâce à "position:fixed;". Chaque bouton de la barre change de couleur quand le curseur de la souris de l'utilisatuer le survole grâce à la configuration "hover".Le header a été construit grace à une flex-box et la propriété Flex-direction column, puis une classe englobant: la zone de texte, le bouton rechercher, l'image du panier et le texte panier. Cette classe a été mis en flex box egalement sans flex direction afin qu'elle soit en flex direction row et aligner horizontalement.</p>
+					<h2>Footer:</h2> <p>Le footer a été mis en Flexbox, les deux parties ont été mis dans deux class differentes et
 						mis en flex-box avec une flex-direction:column. Le contenu du NAV étant en position fixed, le footer a été mis en z-index:1 afin qu'il puisse apparaitre au dessus.</p>
 					<p class="prix-objet">Gratuit</p>			
 				

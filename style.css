@@ -18,6 +18,7 @@ body
 	font-family: 'Lakki Reddy', cursive, sans serif;
 	margin:0;
 	background-color:#C49675;
+	height:auto;
 }
 
 main{
@@ -453,8 +454,6 @@ footer{
 	height:20vh;
 	width:100vw;
 	margin-top: 100%;
-	position:fixed;
-	bottom:0px;
 	display:flex;
 	justify-content: space-around;
 	align-items: center;
